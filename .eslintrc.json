@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parserOptions": {
+    "project": ["tsconfig.json"]
+  },
+  "plugins": [
+    "import",
+    "no-loops",
+    "node",
+    "promise"
+  ],
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": 0,
+    "@typescript-eslint/restrict-template-expressions": 0,
+    "@typescript-eslint/ban-ts-comment": 0
+  }
+}

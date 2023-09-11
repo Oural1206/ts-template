@@ -1,0 +1,23 @@
+{
+  "name": "sans_nom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "run": "node .",
+    "lint": "eslint src --ext .ts && echo 'Good code !'",
+    "build": "rm -rf dist/* && echo 'Compile code...' && tsc --build && echo 'Compilation successful'",
+    "dev": "npm run build && npm run run"
+  },
+  "author": "Oural_1206",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-standard-with-typescript": "^36.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.1.6"
+  }
+}
